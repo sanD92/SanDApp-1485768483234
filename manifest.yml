@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SanDApp
+  host: SanDApp
+  disk_quota: 1024M
+  services:
+  - SanDApp-cloudantNoSQLDB
+  - SanDApp-iotf-service
